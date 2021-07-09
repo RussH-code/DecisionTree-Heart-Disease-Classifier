@@ -28,4 +28,9 @@ We do not neccessarily have to understand what every metrics mean medically, but
 
 Source: (https://medium.com/swlh/decision-tree-classification-de64fc4d5aac)
 
-A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached, in classification problems, leaf stores the class labels.
+A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached, in classification problems, leaf stores the class labels (in this case, fit and unfit are the leaf nodes).
+
+## Pruning
+Decision are notorious for overfitting. Overfitting means a model fits the training data very well but generalize poorly when used on testing data or other real-world data. One way decision trees deal with overfitting is with pruning. In this notebook, we will explore cost-complexity pruning.
+
+## Cost-complexity Pruning
