@@ -35,3 +35,9 @@ Decision are notorious for overfitting. Overfitting means a model fits the train
 
 ## Cost-complexity Pruning
 Cost-complexity pruning is done by comparing the residuals of a series of trees, each with one less node than the previous one. Alpha acts like a penalty score that is scaled by the number of terminal nodes in the trees. So a higher alpha would favor a tree with fewer nodes (keep in mind that the goal is to minimise the residuals in ML).
+
+---
+
+## References
+1. StatQuest Decision Tree (https://www.youtube.com/watch?v=q90UDEgYqeI)
+2. Hands–On Machine Learning with Scikit–Learn and TensorFlow - Aurelien Geron
