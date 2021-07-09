@@ -31,6 +31,7 @@ Source: (https://medium.com/swlh/decision-tree-classification-de64fc4d5aac)
 A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached, in classification problems, leaf stores the class labels (in this case, fit and unfit are the leaf nodes).
 
 ## Pruning
-Decision are notorious for overfitting. Overfitting means a model fits the training data very well but generalize poorly when used on testing data or other real-world data. One way decision trees deal with overfitting is with pruning. In this notebook, we will explore cost-complexity pruning.
+Decision are notorious for overfitting. Overfitting means a model fits the training data very well but generalize poorly when used on testing data or other real-world data. One way decision trees deal with overfitting is with pruning. Pruning refers to the process of removing nodes from the decision tree. In this notebook, we will explore cost-complexity pruning.
 
 ## Cost-complexity Pruning
+Cost-complexity pruning is done by comparing the residuals of a series of trees, each with one less node than the previous one. Alpha acts like a penalty score that is scaled by the number of terminal nodes in the trees. So a higher alpha would favor a tree with fewer nodes (keep in mind that the goal is to minimise the residuals in ML).
