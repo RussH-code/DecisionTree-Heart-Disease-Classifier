@@ -9,16 +9,16 @@ The heart disease data can be obtained from the <a href="https://archive.ics.uci
 1. Age
 2. Sex
 3. CP - Chest Pain Types (total of 4 types)
-4. trestbps - Resting Blood Pressure (mmHg)
-5. chol - Serum Cholesterol Level (mm/dl)
-6. fbs - Fasting Blood Sugar > 120 mg/dl (0 for false, 1 for true)
-7. restecg - Resting Electrocardiogram results
-8. thalac - Maximum Heart Rate
-9. exang - Exercise Induced Angina (0 for false, 1 for true)
-10. oldpeak - ST depression induced by exercise relative to rest
-11. slope - Slope of peak exercise ST segment
-12. ca - Number of major vessels (0-3) colored by flourosopy
-13. thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
-14. num - the predicted attribute (0 for no heart disease, 1 for heart disease)
+4. Trestbps - Resting Blood Pressure (mmHg)
+5. Chol - Serum Cholesterol Level (mm/dl)
+6. Fbs - Fasting Blood Sugar > 120 mg/dl (0 for false, 1 for true)
+7. Restecg - Resting Electrocardiogram results
+8. Thalac - Maximum Heart Rate
+9. Exang - Exercise Induced Angina (0 for false, 1 for true)
+10. Oldpeak - ST depression induced by exercise relative to rest
+11. Slope - Slope of peak exercise ST segment
+12. Ca - Number of major vessels (0-3) colored by flourosopy
+13. Thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
+14. Num - the predicted attribute (0 for no heart disease, 1 for heart disease)
 
 
