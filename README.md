@@ -24,6 +24,6 @@ The heart disease data can be obtained from the <a href="https://archive.ics.uci
 We do not neccessarily have to understand what every metrics mean medically, but it's important to know if it's a continuous or categorical variable as it will influence how we process the data. 
 
 ## Decision Trees
-![]()
+![](https://github.com/RussH-code/DecisionTree-Heart-Disease-Classifier/blob/main/dt.png)
 
-A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached. 
+A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached, in classification problems, leaf stores the class labels.
