@@ -25,6 +25,7 @@ We do not neccessarily have to understand what every metrics mean medically, but
 
 ## Decision Trees
 ![](https://github.com/RussH-code/DecisionTree-Heart-Disease-Classifier/blob/main/dt.png)
+
 Source: (https://medium.com/swlh/decision-tree-classification-de64fc4d5aac)
 
 A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached, in classification problems, leaf stores the class labels.
