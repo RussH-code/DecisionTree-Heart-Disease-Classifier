@@ -21,4 +21,9 @@ The heart disease data can be obtained from the <a href="https://archive.ics.uci
 13. Thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
 14. Num - the predicted attribute (0 for no heart disease, 1 for heart disease)
 
+We do not neccessarily have to understand what every metrics mean medically, but it's important to know if it's a continuous or categorical variable as it will influence how we process the data. 
 
+## Decision Trees
+![]()
+
+A decision tree resembles how human make decisions with flowcharts. In each nodes there is a criteria or question, and the answer to that will route the decision process to the left or right node. Leaf refers to the bottom layer of the tree where the decision has been reached. 
